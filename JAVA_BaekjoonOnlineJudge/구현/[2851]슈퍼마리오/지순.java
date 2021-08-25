@@ -11,10 +11,7 @@ public class Main {
 			if (sum + num < 100)
 				sum += num;
 			else {
-				if (Math.abs(sum + num - 100) < Math.abs(sum - 100)) {
-					sum += num;
-					break;
-				} else if (Math.abs(sum + num - 100) == Math.abs(sum - 100)) {
+				if (Math.abs(sum + num - 100) <= Math.abs(sum - 100)) {
 					sum += num;
 					break;
 				} else
