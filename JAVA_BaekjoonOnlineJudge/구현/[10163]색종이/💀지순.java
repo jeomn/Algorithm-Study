@@ -1,12 +1,10 @@
-package IM_BJ_DIFFICULTY;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BJ_색종이_10163 {
-
+public class Main {
+	// 해결 완: 범위문제
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		// TODO Auto-generated method stub
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
