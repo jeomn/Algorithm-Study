@@ -23,6 +23,7 @@ check[rx][ry][bx][by] = True
 def bfs():
     while q:
         rx, ry, bx, by, cnt = q.popleft()
+        check[rx][ry][bx][by] = True # 지민씨 감사합니다
         if(cnt >= 10): break
 
         for i in range(4):
