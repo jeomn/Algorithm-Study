@@ -1,13 +1,10 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.StringTokenizer;
 
-public class BJ_상어초등학교_21608 {
-	static Map<Integer, Object> map;
+public class BJ_상어초등학교2_21608 {
+	static int[][] map;
 	static int[][] arr;
 	static int N;
 	static int[] dx = {-1, 0, 1, 0};
@@ -18,22 +15,16 @@ public class BJ_상어초등학교_21608 {
 		N = Integer.parseInt(br.readLine());
 		
 		arr = new int[N][N];
-		map = new HashMap<>();
+		map = new int[N*N+1][4];
 		
 		StringTokenizer st;
 		for(int i=0;i<N*N;i++) {
 			st = new StringTokenizer(br.readLine());
 			int student = Integer.parseInt(st.nextToken());
-			int a = Integer.parseInt(st.nextToken());
-			int b = Integer.parseInt(st.nextToken());
-			int c = Integer.parseInt(st.nextToken());
-			int d = Integer.parseInt(st.nextToken());
-			ArrayList<Integer> list = new ArrayList<>();
-			list.add(a);
-			list.add(b);
-			list.add(c);
-			list.add(d);
-			map.put(student, list);
+			map[student][0] = Integer.parseInt(st.nextToken());
+			map[student][1] = Integer.parseInt(st.nextToken());
+			map[student][2] = Integer.parseInt(st.nextToken());
+			map[student][3] = Integer.parseInt(st.nextToken());
 			solve(student);
 		}
 		int result = 0;
@@ -45,10 +36,12 @@ public class BJ_상어초등학교_21608 {
 					int nx = i + dx[d];
 					int ny = j + dy[d];
 					if(nx<0 || nx >= N || ny<0 || ny>=N) continue;
-					ArrayList<Integer> nums = (ArrayList<Integer>) map.get(arr[i][j]);
 					
-					if(nums.contains(arr[nx][ny]))
-						cnt++;
+					for(int l=0;l<map[arr[i][j]].length;l++) {
+						if(map[arr[i][j]][l] == arr[nx][ny]) 
+							cnt++;
+					}
+
 				}
 				result+=satisfaction[cnt];
 			}
@@ -73,12 +66,15 @@ public class BJ_상어초등학교_21608 {
 					int nx = i+dx[k];
 					int ny = j+dy[k];
 					if(nx<0 || nx >= N || ny<0 || ny>=N) continue;
-					ArrayList<Integer> nums = (ArrayList<Integer>) map.get(student);
 					
-					if(nums.contains(arr[nx][ny]))
-						likecnt++;
-					else if(arr[nx][ny] == 0)
+					for(int l=0;l<map[student].length;l++) {
+						if(map[student][l] == arr[nx][ny]) 
+							likecnt++;
+					}
+					
+					if(arr[nx][ny] == 0)
 						zerocnt++;
+					
 				}
 				
 				if(like<likecnt) {
