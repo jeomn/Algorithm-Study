@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
@@ -39,21 +40,21 @@ public class BJ_연구소_14502 {
 			}
 		}
 		
-		comb(0);
+		comb(0, 0);
 		System.out.println(result);
 	}
 	
-	private static void comb(int cnt) {
+	private static void comb(int cnt, int r) {
 		if(cnt == 3) {
 			spreadVirus();
 			return;
 		}
 		
-		for(int i=0;i<N;i++) {
+		for(int i=r;i<N;i++) {
 			for(int j=0;j<M;j++) {
 				if(map[i][j] == 0) {
 					map[i][j] = 1;
-					comb(cnt+1);
+					comb(cnt+1, i);  // 행까지 전달-> 중복 줄이기
 					map[i][j] = 0;
 				}
 			}
