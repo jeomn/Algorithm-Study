@@ -51,12 +51,11 @@ public class Main {
 			minDistance = Math.min(minDistance, getChickenDistance());
 			return;
 		}
-		if(idx == chickenList.size()) return;
 		
-		myChicken[cnt] = chickenList.get(idx);
-		setChicken(cnt+1, idx+1);
-		myChicken[cnt] = null;
-		setChicken(cnt, idx+1);
+		for(int i=idx; i<chickenList.size(); i++) {
+			myChicken[cnt] = chickenList.get(i);
+			setChicken(cnt+1, i+1);
+		}
 	}
 
 	private static int getChickenDistance() {
