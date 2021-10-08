@@ -20,11 +20,9 @@
 * 😒
   * 어려웠어요!
   * 풀었는데 힘든 경우
-* 😭
-  * 못 풀겠어요
-  * 논리나 구현의 문제로, 문제를 풀기 어려운 경우/막힌 경우
 * 💀
   * 왜 안돼죠
+  * 논리나 구현의 문제로, 문제를 풀기 어려운 경우/막힌 경우
   * 코드를 작성했으나 올바른 답이 나오지 않는 경우/틀린 경우
 * 👑 / 💐
   * 나 좀 잘 푼 것같아요!
@@ -33,12 +31,12 @@
 
 ### 기업 코딩테스트 대비
 * 삼성(2021/09/15~)
- * [백준 '삼성 SW 역량 테스트 기출 문제'](https://www.acmicpc.net/workbook/view/1152) 문제집 활용
+  * [백준 '삼성 SW 역량 테스트 기출 문제'](https://www.acmicpc.net/workbook/view/1152) 문제집 활용
 * 카카오
 <br>
  
 ### 문제 리뷰
-<!--|2021-10-00|BOJ [[]](https://www.acmicpc.net/problem/)||-->
+<!--|2021-10-00|BOJ [[]](https://www.acmicpc.net/problem/)|||-->
 |날짜|문제|비고|코드 폴더|
 |---|-------------------------------------------------------------------------------------------------------------------|:----------:|:------------:|
 |2021-08-25|BOJ [[2851]슈퍼마리오](https://www.acmicpc.net/problem/2851)|-|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EA%B5%AC%ED%98%84/%5B2851%5D%EC%8A%88%ED%8D%BC%EB%A7%88%EB%A6%AC%EC%98%A4)|
@@ -60,7 +58,8 @@
 |2021-10-05|BOJ [[14503]로봇 청소기](https://www.acmicpc.net/problem/14503)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B14503%5D%EB%A1%9C%EB%B4%87%20%EC%B2%AD%EC%86%8C%EA%B8%B0)|
 |2021-10-06|BOJ [[15683]감시](https://www.acmicpc.net/problem/15683)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B15683%5D%EA%B0%90%EC%8B%9C)|
 |2021-10-07|BOJ [[15686]치킨 배달](https://www.acmicpc.net/problem/15686)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B15686%5D%EC%B9%98%ED%82%A8%20%EB%B0%B0%EB%8B%AC)|
-||SWEA [4014]활주로 건설|-||
+||SWEA [4014]활주로 건설|-|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_SWExpertAcademy/%EB%AA%A8%EC%9D%98%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8/%5B4014%5D%ED%99%9C%EC%A3%BC%EB%A1%9C%20%EA%B1%B4%EC%84%A4)|
+|2021-10-08|BOJ [[16234]인구 이동](https://www.acmicpc.net/problem/16234)|삼성||
 
 
 
