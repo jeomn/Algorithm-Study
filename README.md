@@ -1,7 +1,7 @@
 # Algorithm-Study
 
 ### 규칙
-* 매일 공통 문제를 풀어 업로드합니다.
+* 주 5회 공통 문제를 풀어 업로드합니다.
 * 리뷰하고 싶은 문제를 올립니다.
 * 매일 한 번씩 **코드 리뷰**를 진행합니다.
 * 스터디를 진행하지 못했다면, 다음 스터디 시간에 이전 문제를 함께 리뷰합니다.
@@ -30,4 +30,34 @@
 
 ### 기업 코딩테스트 대비
 * 삼성(2021/09/15~)
+ * [백준 '삼성 SW 역량 테스트 기출 문제'](https://www.acmicpc.net/workbook/view/1152) 문제집 활용
 * 카카오
+<br>
+ 
+### 문제 리뷰
+<!--|2021-10-00|BOJ [[]](https://www.acmicpc.net/problem/)||-->
+|날짜|문제|비고|코드 폴더|
+|---|-------------------------------------------------------------------------------------------------------------------|:----------:|---|
+|2021-08-25|BOJ [[2851]슈퍼마리오](https://www.acmicpc.net/problem/2851)|-|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EA%B5%AC%ED%98%84/%5B2851%5D%EC%8A%88%ED%8D%BC%EB%A7%88%EB%A6%AC%EC%98%A4)|
+|2021-08-26|BOJ [[10163]색종이](https://www.acmicpc.net/problem/10163)|-|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EA%B5%AC%ED%98%84/%5B10163%5D%EC%83%89%EC%A2%85%EC%9D%B4)|
+|2021-09-15|BOJ [[13460]구슬 탈출 2](https://www.acmicpc.net/problem/13460)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B13460%5D%EA%B5%AC%EC%8A%AC%20%ED%83%88%EC%B6%9C%202)|
+|2021-09-16|BOJ [[21608]상어 초등학교](https://www.acmicpc.net/problem/21608)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B21608%5D%EC%83%81%EC%96%B4%20%EC%B4%88%EB%93%B1%ED%95%99%EA%B5%90)|
+||BOJ [[13458]시험감독](https://www.acmicpc.net/problem/13458)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B13458%5D%EC%8B%9C%ED%97%98%20%EA%B0%90%EB%8F%85)|
+|2021-09-17|BOJ [[14501]퇴사](https://www.acmicpc.net/problem/14501)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B14501%5D%ED%87%B4%EC%82%AC)|
+|2021-09-20|BOJ [[14889]스타트와 링크](https://www.acmicpc.net/problem/14889)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B14889%5D%EC%8A%A4%ED%83%80%ED%8A%B8%EC%99%80%20%EB%A7%81%ED%81%AC)|
+|2021-09-21||추석||
+|2021-09-22|BOJ [[14888]연산자 끼워넣기](https://www.acmicpc.net/problem/14888)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B14888%5D%EC%97%B0%EC%82%B0%EC%9E%90%20%EB%81%BC%EC%9B%8C%EB%84%A3%EA%B8%B0)|
+|2021-09-23|BOJ [[14500]테트로미노](https://www.acmicpc.net/problem/14500)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B14500%5D%ED%85%8C%ED%8A%B8%EB%A1%9C%EB%AF%B8%EB%85%B8)|
+|2021-09-24|BOJ [[14891]톱니바퀴](https://www.acmicpc.net/problem/14891)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B14891%5D%ED%86%B1%EB%8B%88%EB%B0%94%ED%80%B4)|
+|2021-09-27||휴식||
+|2021-09-28|BOJ [[20056]마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B20056%5D%EB%A7%88%EB%B2%95%EC%82%AC%EC%83%81%EC%96%B4%EC%99%80%20%ED%8C%8C%EC%9D%B4%EC%96%B4%EB%B3%BC)|
+|2021-09-29|BOJ [[21610]마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B21610%5D%EB%A7%88%EB%B2%95%EC%82%AC%20%EC%83%81%EC%96%B4%EC%99%80%20%EB%B9%84%EB%B0%94%EB%9D%BC%EA%B8%B0)|
+|2021-09-30|BOJ [[3190]뱀](https://www.acmicpc.net/problem/3190)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B3190%5D%EB%B1%80)|
+|2021-10-01|BOJ [[14502]연구소](https://www.acmicpc.net/problem/14502)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B14502%5D%EC%97%B0%EA%B5%AC%EC%86%8C)|
+|2021-10-05|BOJ [[14503]로봇 청소기](https://www.acmicpc.net/problem/14503)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B14503%5D%EB%A1%9C%EB%B4%87%20%EC%B2%AD%EC%86%8C%EA%B8%B0)|
+|2021-10-06|BOJ [[15683]감시](https://www.acmicpc.net/problem/15683)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B15683%5D%EA%B0%90%EC%8B%9C)|
+|2021-10-07|BOJ [[15686]치킨 배달](https://www.acmicpc.net/problem/15686)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B15686%5D%EC%B9%98%ED%82%A8%20%EB%B0%B0%EB%8B%AC)|
+||SWEA [4014]활주로 건설|-||
+
+
+
