@@ -60,6 +60,6 @@
 |2021-10-07|BOJ [[15686]치킨 배달](https://www.acmicpc.net/problem/15686)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B15686%5D%EC%B9%98%ED%82%A8%20%EB%B0%B0%EB%8B%AC)|
 ||SWEA [4014]활주로 건설|-|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_SWExpertAcademy/%EB%AA%A8%EC%9D%98%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8/%5B4014%5D%ED%99%9C%EC%A3%BC%EB%A1%9C%20%EA%B1%B4%EC%84%A4)|
 |2021-10-08|BOJ [[16234]인구 이동](https://www.acmicpc.net/problem/16234)|삼성||
-
+|2021-10-13|BOJ [[14499]주사위 굴리기](https://www.acmicpc.net/problem/14499)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B14499%5D%EC%A3%BC%EC%82%AC%EC%9C%84%20%EA%B5%B4%EB%A6%AC%EA%B8%B0)|
 
 
