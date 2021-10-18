@@ -63,3 +63,4 @@
 |2021-10-12|BOJ [[14499]주사위 굴리기](https://www.acmicpc.net/problem/14499)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B14499%5D%EC%A3%BC%EC%82%AC%EC%9C%84%20%EA%B5%B4%EB%A6%AC%EA%B8%B0)|
 |2021-10-13|BOJ [[15684]사다리 조작](https://www.acmicpc.net/problem/15684)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B15684%5D%EC%82%AC%EB%8B%A4%EB%A6%AC%20%EC%A1%B0%EC%9E%91)|
 |2021-10-14|BOJ [[15685]드래곤 커브](https://www.acmicpc.net/problem/15685)|삼성|[code]()|
+|2021-10-15||관통||
