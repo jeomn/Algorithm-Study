@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.StringTokenizer;
 
+// 시간초과
 public class BJ_나무재테크_16235 {
 	static int[][] A;
 	static int[][] L;
