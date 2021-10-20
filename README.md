@@ -38,7 +38,7 @@
 ### 문제 리뷰
 <!--|2021-10-00|BOJ [[]](https://www.acmicpc.net/problem/)|||-->
 |날짜|문제|비고|코드 폴더|
-|---|-------------------------------------------------------------------------------------------------------------------|:----------:|:------------:|
+|:---:|-------------------------------------------------------------------------------------------------------------------|:----------:|:------------:|
 |2021-08-25|BOJ [[2851]슈퍼마리오](https://www.acmicpc.net/problem/2851)|-|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EA%B5%AC%ED%98%84/%5B2851%5D%EC%8A%88%ED%8D%BC%EB%A7%88%EB%A6%AC%EC%98%A4)|
 |2021-08-26|BOJ [[10163]색종이](https://www.acmicpc.net/problem/10163)|-|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EA%B5%AC%ED%98%84/%5B10163%5D%EC%83%89%EC%A2%85%EC%9D%B4)|
 |2021-09-15|BOJ [[13460]구슬 탈출 2](https://www.acmicpc.net/problem/13460)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B13460%5D%EA%B5%AC%EC%8A%AC%20%ED%83%88%EC%B6%9C%202)|
@@ -64,3 +64,6 @@
 |2021-10-13|BOJ [[15684]사다리 조작](https://www.acmicpc.net/problem/15684)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B15684%5D%EC%82%AC%EB%8B%A4%EB%A6%AC%20%EC%A1%B0%EC%9E%91)|
 |2021-10-14|BOJ [[15685]드래곤 커브](https://www.acmicpc.net/problem/15685)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B15685%5D%EB%93%9C%EB%9E%98%EA%B3%A4%20%EC%BB%A4%EB%B8%8C)|
 |2021-10-15||관통||
+|2021-10-18|BOJ [[16235]나무 재테크](https://www.acmicpc.net/problem/16235)|삼성|[code](https://github.com/jeomn/Algorithm-Study/tree/main/JAVA_BaekjoonOnlineJudge/%EC%82%BC%EC%84%B1%20SW%20%EC%97%AD%EB%9F%89%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C/%5B16235%5D%EB%82%98%EB%AC%B4%20%EC%9E%AC%ED%85%8C%ED%81%AC)|
+|2021-10-19|BOJ [[16236]아기 상어](https://www.acmicpc.net/problem/16236)|삼성|[code]|
+|2021-10-00|BOJ [[17144]미세먼지 안녕!](https://www.acmicpc.net/problem/17144)|삼성|[code]|
