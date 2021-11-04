@@ -9,8 +9,8 @@ import java.util.StringTokenizer;
 public class BJ_원판돌리기_17822 {
 	private static ArrayList<Integer>[] list;
     static int N, M;
-    static int[] dx = { -1, 1, 0, 0 };
-    static int[] dy = { 0, 0, -1, 1 };
+    static int[] dx = {-1, 0, 1, 0};
+    static int[] dy = {0, 1, 0, -1};
     
     static class Point {
     	int r, c;
