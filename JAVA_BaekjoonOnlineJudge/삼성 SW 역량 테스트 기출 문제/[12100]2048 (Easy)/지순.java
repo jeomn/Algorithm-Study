@@ -129,15 +129,14 @@ public class BJ_2048_12100 {
 					}
 				}
 			}
-			
-			int max = 0;
-			for(int r=0;r<N;r++) {
-				for(int c=0;c<N;c++) {
-					max = Math.max(max, temp[r][c]);
-				}
-			}
-			ans = Math.max(ans, max);
 		}
 		
+		int max = 0;
+		for(int r=0;r<N;r++) {
+			for(int c=0;c<N;c++) {
+				max = Math.max(max, temp[r][c]);
+			}
+		}
+		ans = Math.max(ans, max);
 	}
 }
