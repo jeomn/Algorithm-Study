@@ -8,8 +8,6 @@ public class BJ_2048_12100 {
 	static int[][] map;
 	static int[] select;
 	static int ans;
-	static int[] dx = {-1, 0, 1, 0};
-	static int[] dy = {0, 1, 0, -1};
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		// TODO Auto-generated method stub
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
