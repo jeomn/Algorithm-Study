@@ -119,7 +119,7 @@ public class BJ_낚시왕_17143 {
 		}
 		for (int i = 0; i < R; i++) {
 			for (int j = 0; j < C; j++) {
-				map[i][j].clear();;
+				map[i][j].clear();
 			}
 		}
 	}
