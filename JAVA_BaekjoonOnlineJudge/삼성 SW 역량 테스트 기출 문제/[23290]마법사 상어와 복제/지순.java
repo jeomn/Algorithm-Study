@@ -58,16 +58,9 @@ public class BJ_마법사상어와복제_23290 {
 		for(int i=0;i<S;i++) {
 			copyMagic();
 			moveFish();
-			smell();
-//			System.out.println("물고기 이동");
-			print();
-			removeSmall(i+1);
 			moveShark(i+1);
-//			System.out.println("상어 이동");
-//			print();
-			copyMagitLoad();
-//			System.out.println("결과");
-//			print();
+			removeSmell(i+1);
+			copyMagicLoad();
 		}
 		
 		int result = 0;
@@ -88,7 +81,7 @@ public class BJ_마법사상어와복제_23290 {
 		}
 	}
 	
-	private static void copyMagitLoad() {
+	private static void copyMagicLoad() {
 		// TODO Auto-generated method stub
 		for(int i=0;i<4;i++) {
 			for(int j=0;j<4;j++) {
@@ -105,29 +98,7 @@ public class BJ_마법사상어와복제_23290 {
 				for(int k=0;k<map[i][j].size();k++) {
 					System.out.println("좌표" + i+" "+j +" "+map[i][j].get(k).d);
 				}
-//				if(map[i][j].size() == 0) {
-//					System.out.print("-1" +" ");
-//				}else {
-//					System.out.print(map[i][j].get(0).d+" ");
-//				}
 			}
-//			System.out.println();
-		}
-	}
-	
-	private static void print2() {
-		for(int i=0;i<4;i++) {
-			for(int j=0;j<4;j++) {
-				for(int k=0;k<copyMap[i][j].size();k++) {
-					System.out.println("좌표" + i+" "+j +" "+copyMap[i][j].get(k).d);
-				}
-//				if(map[i][j].size() == 0) {
-//					System.out.print("-1" +" ");
-//				}else {
-//					System.out.print(map[i][j].get(0).d+" ");
-//				}
-			}
-//			System.out.println();
 		}
 	}
 	
@@ -155,7 +126,6 @@ public class BJ_마법사상어와복제_23290 {
 					for(int l=0;l<8;l++) {
 						int nx = x + dx[d];
 						int ny = y + dy[d];
-//						System.out.println(nx+" "+ny);
 						if(nx>=0 && nx<4 && ny>=0 && ny<4) {
 							if(!(nx == sx && ny == sy) && fishSmell[nx][ny] == 0) {
 								temp[nx][ny].add(new Point(nx, ny, d));
@@ -176,8 +146,7 @@ public class BJ_마법사상어와복제_23290 {
 		map = temp;
 	}
 	
-	private static void removeSmall(int time) {
-		// TODO Auto-generated method stub
+	private static void removeSmell(int time) {
 		for(int i=0;i<4;i++) {
 			for(int j=0;j<4;j++) {
 				if(fishSmell[i][j] == 0) continue;
@@ -198,16 +167,12 @@ public class BJ_마법사상어와복제_23290 {
 			int ny = sy + my[arr[i]];
 			
 			if(map[nx][ny].size() != 0) {
-//				System.out.println(nx+" "+ny);
 				fishSmell[nx][ny] = time;
 				map[nx][ny].clear();
 			}
 			sx = nx;
 			sy = ny;
-//			System.out.println("상어 이동: "+nx+" "+ny);
 		}
-		System.out.println(Arrays.toString(arr));
-		System.out.println("상어 위치: "+sx+" "+sy);
 	}
 	
 	private static void dfs(int idx) {
@@ -222,12 +187,15 @@ public class BJ_마법사상어와복제_23290 {
 				int nx = x + mx[dir];
 				int ny = y + my[dir];
 				
-				if(nx<0 || nx>=4||ny<0||ny>=4 || visited[nx][ny]) {
+				if(nx<0 || nx>=4||ny<0||ny>=4) {
 					cnt = -1;
 					break;
 				}
-				visited[nx][ny] = true;
-				cnt += map[nx][ny].size();
+				
+				if(!visited[nx][ny]) {
+					visited[nx][ny] = true;
+					cnt += map[nx][ny].size();
+				}
 				x = nx;
 				y = ny;
 			}
@@ -236,8 +204,6 @@ public class BJ_마법사상어와복제_23290 {
 				arr = tmp.clone();
 				maxVal = cnt;
 			}
-//			System.out.println(Arrays.toString(tmp));
-//			System.out.println(cnt);
 			return;
 		}
 		
