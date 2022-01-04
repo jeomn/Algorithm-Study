@@ -36,7 +36,6 @@ class Solution {
             int remainder = number%nBase;
             number /= nBase;
             sb.insert(0, base.charAt(remainder));
-            //sb.append(base.charAt(remainder));
         }
         return sb.toString();
     }
