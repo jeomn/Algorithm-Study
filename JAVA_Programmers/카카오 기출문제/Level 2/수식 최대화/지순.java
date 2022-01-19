@@ -13,24 +13,25 @@ class Solution {
         long answer = 0;
         
         char[] exp = expression.toCharArray();
-        String str = "";
+        StringBuilder str = new StringBuilder();
         for(int i=0;i<exp.length;i++) {
             if(exp[i] == '+' || exp[i] == '-' || exp[i] == '*') {
-                numList.add(Long.valueOf(str));
+                numList.add(Long.valueOf(str.toString()));
                 operList.add(exp[i]);
-                str = "";
+                str.setLength(0);
             } else {
-                str += exp[i] +"";
+                str.append(exp[i]);
             }
         }
         
-        numList.add(Long.valueOf(str));
+        numList.add(Long.valueOf(str.toString()));
         
         for(int i=0;i<order.length;i++) {
             LinkedList<Long> temp = new LinkedList<>(numList);
             LinkedList<Character> operTemp = new LinkedList<>(operList);
 
             for(char c: order[i]) {
+                if(!operTemp.contains(c)) continue;
                 for(int j=0;j<operTemp.size();j++) {
                     char op = operTemp.get(j);
                     if(op != c) continue;
