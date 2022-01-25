@@ -34,7 +34,6 @@ class Solution {
     public void comb(int cnt, int idx, int N, char[] ch, ArrayList<String> temp) {
         if(cnt == N) {
             ArrayList<String> tmp = new ArrayList<>(temp);
-            Collections.sort(tmp);
             String s = String.join("", tmp);
             hashmap.put(s, hashmap.containsKey(s)? hashmap.get(s) + 1:1);
             maxNum = Math.max(maxNum, hashmap.get(s));
