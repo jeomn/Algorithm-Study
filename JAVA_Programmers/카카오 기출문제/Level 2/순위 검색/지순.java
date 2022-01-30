@@ -38,6 +38,8 @@ class Solution {
                         start = mid + 1;
                 }
                 answer[i] = list.size() - start;
+            } else {
+                answer[i] = 0;
             }
         }
         
