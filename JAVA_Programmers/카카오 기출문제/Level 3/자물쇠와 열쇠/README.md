@@ -20,4 +20,4 @@
     * 둘 다 1이면 key 회전
     * matchCnt+1
 * matchCnt가 lock의 전체 크기와 맞으면 자물쇠의 모든 홈을 채워 빈 곳이 없다는 것 > true 리턴
-* 그 외의 경우 false 리턴
+* 전체 좌표 탐색  false 리턴
