@@ -7,3 +7,17 @@
 
 ---
 ### 정지민
+* **구현**
+* (N+M-1)*(N+M-1)크기의 좌표를 탐색하도록 구현
+* key는 4방향으로 회전
+  * lock 완전탐색
+  * lock좌표에 따라 탐색해야 하는 key 좌표 계산
+    * keyR = lockR+M-1-r(N+M-1의 r);
+    * keyC = lockC+M-1-c(N+M-1의 c);
+  * key 좌표가 key 범위 밖이면 lock의 현재 상태를 체크
+  * key 좌표의 상태와 lock 좌표의 상태를 비교
+    * 둘 다 0이면 key 회전
+    * 둘 다 1이면 key 회전
+    * matchCnt+1
+* matchCnt가 lock의 전체 크기와 맞으면 자물쇠의 모든 홈을 채워 빈 곳이 없다는 것 > true 리턴
+* 그 외의 경우 false 리턴
