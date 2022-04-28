@@ -51,7 +51,7 @@ public class BJ_15686_치킨배달 {
 		}
 		for(int i=start;i<chicken.size();i++) {
 			visit[cnt] = chicken.get(i);
-			comb(cnt+1, i);
+			comb(cnt+1, i+1);
 		}
 	}
 	
