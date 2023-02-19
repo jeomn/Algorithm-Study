@@ -43,5 +43,8 @@
  
 ### 문제 리뷰
 <!--|2021-10-00|BOJ [[]](https://www.acmicpc.net/problem/)|||-->
-|날짜|문제|비고|코드 폴더|[jeomn](https://github.com/jeomn)|[JISOONLEE](https://github.com/JISOONLEE)|[josephna97](https://github.com/josephna97)|
-|:---:|------------------------------------------------------------------------|:----------:|:------------:|:----------:|:----------:|:----------:|
+|날짜|문제|비고|[jeomn](https://github.com/jeomn)|[JISOONLEE](https://github.com/JISOONLEE)|[josephna97](https://github.com/josephna97)|
+|:---:|------------------------------------------------------------------------|:----------:|:----------:|:----------:|:----------:|
+|2023-02-19|BOJ [[23971]ZOAC 4](https://www.acmicpc.net/problem/23971)||✔|✔|✔|
+||BOJ [[5073]삼각형과 세 변](https://www.acmicpc.net/problem/5073)||✔|✔|✔|
+||BOJ [[2292]벌집](https://www.acmicpc.net/problem/2292)||✔|✔|✔|
