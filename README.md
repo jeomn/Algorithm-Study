@@ -48,3 +48,4 @@
 |2023-02-19|BOJ [[23971]ZOAC 4](https://www.acmicpc.net/problem/23971)||✔|✔|✔|
 ||BOJ [[5073]삼각형과 세 변](https://www.acmicpc.net/problem/5073)||✔|✔|✔|
 ||BOJ [[2292]벌집](https://www.acmicpc.net/problem/2292)||✔|✔|✔|
+||programmers [[1차] 비밀지도](https://school.programmers.co.kr/learn/courses/30/lessons/17681)|||||
