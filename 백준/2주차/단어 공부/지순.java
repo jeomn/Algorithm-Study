@@ -1,10 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 public class BJ_1157_단어공부 {
     public static void main(String[] args) throws IOException {
@@ -25,7 +22,8 @@ public class BJ_1157_단어공부 {
             }
         });
 
-        if (list.size() >= 2 && map.get(list.get(0)) == map.get(list.get(1)))
+        // Integer는 객체라 equals 비교를 해야한다. == 비교는 틀림
+        if (list.size() >= 2 && Objects.equals(map.get(list.get(0)), map.get(list.get(1))))
             System.out.println('?');
         else System.out.println(list.get(0));
     }
